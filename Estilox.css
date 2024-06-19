@@ -1,0 +1,36 @@
+:root{
+    --titulos: gray;
+    --subtitulos: rgba(4, 2, 22, 0.815);
+    --parrafos: gray;
+    --borde: 4px solid black;
+    --links: blue;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    color: var(--titulos, gray);
+    border: var(--borde, gray);
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    color: var(--subtitulos, white);
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: var(--borde, gray);
+    color: gray;
+    color: var(--parrafos, blue);
+}
+
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    color: var(--links)
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
